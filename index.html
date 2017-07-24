@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>React</h2>
+					<h4>A JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES</h4>
+				</section>
+				<section>
+					<h4>Overview</h4>
+					<ul>
+						<li>UI is built up using <a href="https://facebook.github.io/react/docs/components-and-props.html#functional-and-class-components"><i>components</i></a></li>
+						<li>Declarative</li>
+						<li>No direct manipulation of the DOM</li>
+					</ul>
+				</section>
+				<!-- <section>
+					<section>
+					<h4>Updating the DOM</h4>
+						<img src="images/dom.png" alt="the dom">
+					</section>
+					<section>
+					<h4>Updating the DOM</h4>
+						<ul>
+							<li class="fragment fade-up">Updating the DOM is an expensive operation</li>
+							<li class="fragment fade-up">Entire subtree has to go through the reflow cycle</li>
+							<li class="fragment fade-up"></li>
+						</ul>
+					<a href="http://bit.ly/2uqpzRc">More info</a>
+
+					</section>
+				</section>
+				<section>
+					<h4>
+						Virtual DOM
+					</h4>
+				</section> -->
+				<section>
+					<section>
+						<h4>
+							A component
+						</h4>
+						<ul>
+							<li>
+								At the most basic level, a component is simply a Javascript function
+							</li>
+						</ul>
+						<pre>
+							<code data-trim>
+								function HelloWorld() {
+									return <h1>Hello, world!</h1>
+								}
+							</code>
+						</pre>
+					</section>
+
+					<section>
+						<h4>Using ES6 arrow functions</h4>
+						<pre><code data-trim>
+							const HelloWorld = () => {
+								return <h1>Hello, world!</h1>
+							}
+						</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>
+							How do we get our components to display?
+						</h4>
+					</section>
+					<section>
+
+						<h4>React DOM</h4>
+
+						<a href="https://codepen.io/berkmolla/pen/ZJEPor">CodePen</a>
+					</section>
+				</section>
+				<section>
+					<h4>render()</h4>
+					<ul>
+						<li class="fragment fade-up">
+							Used to display the component
+						</li>
+						<li class="fragment fade-up">
+							Takes in props and return html
+						</li>
+						<li class="fragment fade-up">
+							Called every time props or state changes
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h4>Props</h4>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
