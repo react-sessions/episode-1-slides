@@ -7,6 +7,7 @@
 
 - An object passed through the parent, received as an argument
 - Added as *attributes* on the component
+- Props are **read-only**
 
 
 ```js
@@ -34,6 +35,7 @@ const Button = (props) => {
 
 ---
 
+#### Props
 - Class-based components use the *`this`* keyword to access props
 ```js
 class Button extends React.Component {
