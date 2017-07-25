@@ -46,3 +46,13 @@ class Button extends React.Component {
 ```
 
 [Example](https://codepen.io/berkmolla/pen/zdxEpB)
+
+------
+
+### Exercise
+
+Write a component that says hello to you and tells you the current date
+
+---
+
+[Solution](https://codepen.io/berkmolla/pen/ZJYooV)
