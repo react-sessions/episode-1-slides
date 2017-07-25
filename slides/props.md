@@ -9,7 +9,7 @@
 - Added as *attributes* on the component
 
 
-```
+```js
 ReactDOM.render(
     <Button title="Submit" />
     document.getElementById('root')
@@ -23,7 +23,7 @@ ReactDOM.render(
 - Our component definition now looks like this
 - Attribute name specified corresponds to property on props object
 
-```
+```js
 const Button = (props) => {
     return (
         <button type="submit">{props.title}</button>
@@ -35,7 +35,7 @@ const Button = (props) => {
 ---
 
 - Class-based components use the *`this`* keyword to access props
-```
+```js
 class Button extends React.Component {
     render() {
         <button type="submit">{this.props.title}</button>
