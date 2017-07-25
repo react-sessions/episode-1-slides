@@ -24,9 +24,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<h2>React</h2>
-					<h4>A JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES</h4>
+				<section data-markdown="slides/title.md" data-background="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/react.svg" data-background-size="1000px">
 				</section>
 				<section>
 					<h4>Overview</h4>
@@ -57,6 +55,8 @@
 						Virtual DOM
 					</h4>
 				</section> -->
+				<section data-markdown="slides/jsx.md">
+				</section>
 				<section>
 					<section>
 						<h4>
@@ -137,9 +137,12 @@
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+				showNotes: true,
+				history: true
 			});
 		</script>
 	</body>

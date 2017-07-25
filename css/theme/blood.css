@@ -308,6 +308,7 @@ body {
 
 .reveal p code {
   background-color: #23241f;
+  color: #aaa;
   display: inline-block;
   border-radius: 7px; }
 
