@@ -2,7 +2,7 @@
 
 **J**ava**S**cript **X**ML
 
----
+------
 
 ### What is JSX?
 
@@ -28,7 +28,7 @@ const element = <img src="" />;
 const component = <ProfileImage src="" />;
 ```
 
----
+------
 
 ### Specifying Attributes
 
@@ -64,7 +64,7 @@ To apply the `class` and `for` attributes in JSX you have to use `className` and
 
 This is because `class` and `for` are reserved keywords in JavaScript
 
----
+------
 
 ### Embedding Expressions
 
@@ -103,7 +103,7 @@ var app = React.createElement(
 );
 ```
 
----
+------
 
 ### JSX is an Expression Too
 
@@ -132,7 +132,7 @@ const app = formatGreeting(<em>Desmond</em>);
 
 note: https://goo.gl/VJuKuP
 
----
+------
 
 ### Child Elements
 
@@ -142,9 +142,9 @@ JSX can contain child elements
 
 When adding multiple children to a JSX element you must wrap those elements with a single parent element as React components can only return a single element
 
-note: https://goo.gl/TsLFgh
-
 ---
+
+Here, the JSX code is spread over multiple lines for readability and wrapped in parenthesis to avoid automatic semicolon insertion
 
 ```js
 const app = (
@@ -155,7 +155,9 @@ const app = (
 );
 ```
 
----
+note: https://goo.gl/TsLFgh
+
+------
 
 ### Exercise
 
