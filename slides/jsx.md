@@ -68,7 +68,7 @@ You can embed any JavaScript expression in JSX by wrapping it in curly braces
 
 JSX expressions evaluate to ReactElements. Think of them as shorthand for calling React.createElement().
 
-note: https://codepen.io/DamianMullins/pen/zdYdBQ?editors=0010 - Use the "View compiled JS" option to show how the code is transformed
+note: https://goo.gl/wfNfxc - Use the "View compiled JS" option to show how the code is transformed
 
 ---
 
@@ -78,7 +78,7 @@ After compilation, JSX expressions become regular JavaScript objects
 
 This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions
 
-note: https://codepen.io/DamianMullins/pen/KvKRBb?editors=0010
+note: https://goo.gl/VJuKuP
 
 ---
 
@@ -88,7 +88,7 @@ JSX can contain child elements
 
 When adding multiple children to a JSX element you must wrap those elements with a single parent element as React component can only return a single element
 
-note: https://codepen.io/DamianMullins/pen/QMWxOL?editors=0010
+note: https://goo.gl/TsLFgh
 
 ---
 
@@ -96,4 +96,4 @@ note: https://codepen.io/DamianMullins/pen/QMWxOL?editors=0010
 
 Identify and fix the issues in this code example
 
-https://codepen.io/DamianMullins/pen/xLxjoO?editors=0010
+https://goo.gl/ERWcfj
