@@ -1,9 +1,5 @@
 ### Building a basic component
 
----
-
-#### Putting it all together
-
 ------
 
 #### Exercise

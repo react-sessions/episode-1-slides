@@ -14,7 +14,8 @@ Damian M
 
 ### What are we going to cover today?
 
-- What is JSX?
+- What is React?
+- JSX?
 - Components
 - The `Render()` method
 - Props
