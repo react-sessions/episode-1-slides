@@ -31,12 +31,14 @@ const Button = (props) => {
     )
 }
 ```
-[Example](https://codepen.io/berkmolla/pen/LjEzVb)
+[Example](https://codepen.io/berkmolla/pen/LjEzVb?editors=0010)
 
 ---
 
 #### Props
-- Class-based components use the *`this`* keyword to access props
+
+Class-based components use the `this` keyword to access props
+
 ```js
 class Button extends React.Component {
     render() {
@@ -45,7 +47,7 @@ class Button extends React.Component {
 }
 ```
 
-[Example](https://codepen.io/berkmolla/pen/zdxEpB)
+[Example](https://codepen.io/berkmolla/pen/zdxEpB?editors=0010)
 
 ------
 
@@ -55,4 +57,4 @@ Write a component that says hello to you and tells you the current date
 
 ---
 
-[Solution](https://codepen.io/berkmolla/pen/ZJYooV)
+[Solution](https://codepen.io/berkmolla/pen/ZJYooV?editors=0010)

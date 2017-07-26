@@ -24,7 +24,9 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="slides/title.md" data-background="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/react.svg" data-background-size="1000px">
+				<section data-markdown="slides/title.md"
+					data-background="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/react.svg"
+					data-background-size="1000px">
 				</section>
 
 				<section data-markdown="slides/intro.md"
@@ -40,6 +42,7 @@
 						<li>No direct manipulation of the DOM - components are re-rendered automatically when data/state changes occur</li>
 					</ul>
 				</section>
+
 				<!-- <section>
 					<section>
 					<h4>Updating the DOM</h4>
@@ -61,10 +64,12 @@
 						Virtual DOM
 					</h4>
 				</section> -->
+
 				<section data-markdown="slides/jsx.md"
 					data-separator="^\r?\n------\r?\n$"
 					data-separator-vertical="^\r?\n---\r?\n$">
 				</section>
+
 				<section>
 					<section>
 						<h4>
@@ -76,47 +81,37 @@
 							</li>
 						</ul>
 						<pre>
-							<code data-trim>
-								function HelloWorld() {
-								  return <h1>Hello, world!</h1>
-								}
+							<code data-trim class="javascript">
+							function HelloWorld() {
+							  return <h1>Hello, world!</h1>
+							}
 							</code>
 						</pre>
 					</section>
 
 					<section>
 						<h4>Using ES6 arrow functions</h4>
-						<pre><code data-trim>
-							const HelloWorld = () => {
-							  return <h1>Hello, world!</h1>
-							}
+						<pre><code data-trim class="javascript">
+						const HelloWorld = () => {
+					    return <h1>Hello, world!</h1>
+						}
 						</code></pre>
 					</section>
-					<section>
-						<h4>Class-based components</h4>
-						<pre><code data-trim>
-							class HelloWorld extends React.Component {
-							  render() {
-								return (
-									<h1>Hello, world!</h1>
-								)
-							  }
-							}
-						</code></pre>
+					<section data-markdown="slides/classbasedcomponents.md">
 					</section>
 				</section>
+
 				<section data-markdown="slides/nestingcomponents.md">
-
-
 				</section>
+
 				<section>
 					<section>
 						<h4>
 							How do we get our components to display?
 						</h4>
 					</section>
-					<section>
 
+					<section>
 						<h4>React DOM.render()</h4>
 						<ul>
 							<li>React-DOM - npm package dealing with DOM manipulations</li>
@@ -127,6 +122,7 @@
 						<a href="https://codepen.io/berkmolla/pen/ZJEPor">Example</a>
 					</section>
 				</section>
+
 				<section>
 					<h4>render()</h4>
 					<ul>
@@ -144,9 +140,20 @@
 						</li>
 					</ul>
 				</section>
+
 				<section data-markdown="slides/props.md"
 						 data-separator="^\r?\n------\r?\n$"
 						 data-separator-vertical="^\r?\n---\r?\n$">
+				</section>
+
+				<section data-markdown="slides/building-a-basic-component.md"
+					data-separator="^\r?\n------\r?\n$"
+					data-separator-vertical="^\r?\n---\r?\n$">
+				</section>
+
+				<section data-markdown="slides/summary.md"
+					data-separator="^\r?\n------\r?\n$"
+					data-separator-vertical="^\r?\n---\r?\n$">
 				</section>
 			</div>
 		</div>
