@@ -306,11 +306,14 @@ body {
 .reveal h6 {
   font-weight: 700; }
 
-.reveal p code {
-  background-color: #23241f;
-  color: #aaa;
+.reveal p code,
+.reveal li > code {
+  background-color: #999;
+  color: #23241f;
   display: inline-block;
-  border-radius: 7px; }
+  border-radius: 7px;
+  padding: 0 5px;
+  text-shadow: initial; }
 
 .reveal small code {
   vertical-align: baseline; }

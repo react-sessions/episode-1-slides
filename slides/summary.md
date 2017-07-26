@@ -7,7 +7,11 @@
 
 ---
 
-- Render() method to display components
+- `Render()` method to display components
 - Components are re-rendered when their props/state change
 - Props is a read-only object passed in to the component via the parent
 - Used to pass data down to component
+
+---
+
+## The end!
