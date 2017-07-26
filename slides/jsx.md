@@ -107,7 +107,7 @@ var app = React.createElement(
 
 #### Ignored expressions
 
-`false`, `null`, `undefined`, `and` true are valid children. They simply don't render. These JSX expressions will all render to the same thing
+`false`, `null`, `undefined`, and `true` are valid children. They simply don't render. These JSX expressions will all render to the same thing
 
 ```js
 <div />

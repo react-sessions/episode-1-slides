@@ -54,6 +54,8 @@ class Button extends React.Component {
 
 Write a component that says hello to you and tells you the current date
 
+https://goo.gl/5Sc6xp
+
 ---
 
 [Solution](https://goo.gl/vr1EWP)
