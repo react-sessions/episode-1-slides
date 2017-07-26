@@ -70,38 +70,9 @@
 					data-separator-vertical="^\r?\n---\r?\n$">
 				</section>
 
-				<section>
-					<section>
-						<h4>
-							A component
-						</h4>
-						<ul>
-							<li>
-								At the most basic level, a component is simply a Javascript function
-							</li>
-						</ul>
-						<pre>
-							<code data-trim class="javascript">
-							function HelloWorld() {
-							  return <h1>Hello, world!</h1>
-							}
-							</code>
-						</pre>
-					</section>
-
-					<section>
-						<h4>Using ES6 arrow functions</h4>
-						<pre><code data-trim class="javascript">
-						const HelloWorld = () => {
-					    return <h1>Hello, world!</h1>
-						}
-						</code></pre>
-					</section>
-					<section data-markdown="slides/classbasedcomponents.md">
-					</section>
-				</section>
-
-				<section data-markdown="slides/nestingcomponents.md">
+				<section data-markdown="slides/components.md"
+					data-separator="^\r?\n------\r?\n$"
+					data-separator-vertical="^\r?\n---\r?\n$">
 				</section>
 
 				<section>
@@ -112,7 +83,7 @@
 					</section>
 
 					<section>
-						<h4>React DOM.render()</h4>
+						<h4>ReactDOM.render()</h4>
 						<ul>
 							<li>React-DOM - npm package dealing with DOM manipulations</li>
 							<li>Primarily used for rendering the 'root' component of our React app</li>
