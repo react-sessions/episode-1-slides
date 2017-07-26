@@ -1,7 +1,6 @@
 ### Props
 
-
----
+------
 
 #### Props
 
@@ -31,7 +30,7 @@ const Button = (props) => {
     )
 }
 ```
-[Example](https://codepen.io/berkmolla/pen/LjEzVb?editors=0010)
+[Example](https://goo.gl/pvjQoH)
 
 ---
 
@@ -47,7 +46,7 @@ class Button extends React.Component {
 }
 ```
 
-[Example](https://codepen.io/berkmolla/pen/zdxEpB?editors=0010)
+[Example](https://goo.gl/bnjR3E)
 
 ------
 
@@ -57,4 +56,68 @@ Write a component that says hello to you and tells you the current date
 
 ---
 
-[Solution](https://codepen.io/berkmolla/pen/ZJYooV?editors=0010)
+[Solution](https://goo.gl/vr1EWP)
+
+------
+
+#### `props.children`
+
+There is a special prop called `children` which can be used to pass in content.
+
+```js
+const Menu = props => (
+    <ul>
+        {props.children}
+    </ul>
+);
+
+const App = () => (
+    <Menu>
+        <li>Welcome!</li>
+        <li>Hi!</li>
+    </Menu>
+);
+```
+
+[Example](https://goo.gl/wppjLN)
+
+note: Children in React don’t have to be components, they can be anything
+
+---
+
+JSX automatically removes whitespace at the start and end of a line as well as blank lines. It also converts blank lines in the middle of string literals into one space.
+
+---
+
+All of these examples will render the same thing
+
+```js
+<Container>Hello world!</Container>
+
+<Container>
+  Hello world!
+</Container>
+
+<Container>
+  Hello
+  world!
+</Container>
+
+<Container>
+
+  Hello world!
+</Container>
+```
+
+---
+
+Children can be of multiple different types
+
+```js
+<Container>
+  Here is a divider:
+  <Divider />
+  Here is another divider:
+  <Divider />
+</Container>
+```
