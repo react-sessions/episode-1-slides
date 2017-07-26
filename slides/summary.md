@@ -14,4 +14,7 @@
 
 ---
 
-## The end!
+### What's coming in Episode II?
+
+- Component state
+- Events
